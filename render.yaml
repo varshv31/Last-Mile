@@ -26,7 +26,7 @@ services:
           name: lmd-db
           property: connectionString
       - key: CORS_ALLOWED_ORIGINS
-        value: "https://your-vercel-frontend-url.vercel.app" # To be updated after Vercel deployment
+        value: '["https://your-vercel-frontend-url.vercel.app"]' # To be updated after Vercel deployment
       - key: JWT_SECRET_KEY
         generateValue: true
       - key: JWT_ALGORITHM
