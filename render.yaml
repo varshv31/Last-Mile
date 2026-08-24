@@ -1,10 +1,10 @@
-services:
-  # Database
-  - type: psql
-    name: lmd-db
+databases:
+  - name: lmd-db
     plan: free # Can be upgraded as needed
     databaseName: lmd_db
     user: lmd_user
+
+services:
 
   # Backend Web Service
   - type: web
