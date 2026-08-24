@@ -101,8 +101,10 @@ npm run dev
 
 The project is fully CI/CD ready and currently deployed across two platforms:
 
-- **Frontend (Vercel)**: Configured as a Vercel project with the Root Directory set to `frontend/`. Environment variables ensure it correctly points to the deployed API.
-- **Backend (Render)**: Automatically provisions the database and deploys the FastAPI container via the root `render.yaml` Blueprint. The deployment pipeline runs `alembic upgrade head` before booting `uvicorn`.
+- **Frontend (Vercel)**: Configured as a Vercel project with the Root Directory set to `frontend/`. 
+  - **Live URL**: [https://last-mile-teal.vercel.app](https://last-mile-teal.vercel.app)
+- **Backend (Render)**: Automatically provisions the database and deploys the FastAPI container via the root `render.yaml` Blueprint. 
+  - **Live API Docs**: [https://lmd-backend-9s02.onrender.com/docs](https://lmd-backend-9s02.onrender.com/docs)
 
 ---
 
